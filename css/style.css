@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background-image: url('../img/coffee.jpg');   
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    height: 50px;
+    background-color: #1a1a1a;
+    font-family: Roboto;
+    box-shadow: 0px 0px 100px 5px;
+    display: flex;
+    width: 100%;
+  }
+  
+  #logo {
+    padding: 70px 0 0 0;
+    overflow: hidden;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    height: 0px;
+    height: 70px;
+}
+  
+  .menu ul {
+    margin: 0 auto;
+  }
+  
+  .menu ul li ul {
+    width: 100%;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    width: 150px;
+    padding: 0px 10px;
+    line-height: 25px;
+    padding: 0;
+    position: relative;
+  }
+  
+  .menu ul li a {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .menu a {
+    padding: 12.5px;
+    display: block;
+    text-decoration: none;
+    color: #666666;
+  }
+  
+  .menu ul ul {
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: all 500ms;
+  }
+  
+  .menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #262626;
+  }
+  
+  .menu ul li:hover ul {
+    opacity: 1;
+  }
+  
+  .menu ul ul a:hover {
+    transition: all 0.4s ease;
+    background-color: #262626;
+    color: white;
+  }
+  
+  .menu a:hover {
+    transition: all 0.4s ease;
+    color: white;
+  }
+  
+  .menu ul ul li {
+    background-color: #1a1a1a;
+  }
+  
+  .menu ul ul a {
+    font-size: 17px;
+  }
+  
+  .menu ul ul li a:hover ul ul ul {
+    visibility: visible;
+  }
+  
+  nav {
+    margin-bottom: 10.0rem;
+  }
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color: #000;
+    font-size: 22px;
+    line-height: 60px;
+    padding: 0 6em;
+}
+.pa{
+    font-family: "Roboto", sans-serif;
+    margin: 50px;
+    text-align: justify;
+    color: white;
+    text-justify: newspaper;
+}
+#carda{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+#carda img{
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+}
+#item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(0,0,0, 0.85 );
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
